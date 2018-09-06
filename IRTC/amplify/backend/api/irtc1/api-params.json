@@ -1,0 +1,27 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaArn": "arn:aws:lambda:us-east-2:063654040785:function:addLocation",
+            "lambdaFunction": "addLocation",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "irtc1",
+    "apiName": "irtce5ea08ca",
+    "functionArns": [
+        {
+            "lambdaFunction": "addLocation",
+            "lambdaArn": "arn:aws:lambda:us-east-2:063654040785:function:addLocation"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "a-20180829105427-authRole",
+        "unAuthRoleName": "a-20180829105427-unauthRole"
+    },
+    "dependsOn": []
+}
